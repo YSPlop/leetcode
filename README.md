@@ -4,6 +4,8 @@ This repo will be used to reflect my work in leetcode and store the code that I 
 
 ## Checklist
 
-- [ ] two-sum.py
-- [ ] add-two-numbers
-- [ ] longest-substring-without-repeating-characters.
+- Easy
+    - [x] two-sum.py
+    - [x] add-two-numbers
+- Medium
+    - [ ] longest-substring-without-repeating-characters.
