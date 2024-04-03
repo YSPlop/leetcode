@@ -9,12 +9,10 @@ def find_pair_indices(nums, target):
     Returns:
         A list of two indices whose elements sum to the target number, or None if no such pair exists.
     """
-
     seen = {}
 
     for i, num in enumerate(nums):
         complement = target - num
-
         if complement in seen:
             return [seen[complement], i]
 

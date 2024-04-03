@@ -1,12 +1,6 @@
 def lengthOfLongestSubstring(s: str) -> int:
     """
-    Finds the length of the longest substring without repeating characters.
-
-    Args:
-        s: The input string.
-
-    Returns:
-        The length of the longest substring without repeating characters.
+    Given a string s, find the length of the longest substring without repeating characters.
     """
 
     seen = {}
@@ -26,3 +20,14 @@ def lengthOfLongestSubstring(s: str) -> int:
         seen[s[right]] = right
 
     return max_length
+
+
+if __name__ == "__main__":
+    print("abcabcbb length is",lengthOfLongestSubstring("abcabcbb"))
+    print("bbbbb length is",lengthOfLongestSubstring("bbbbb"))
+    print("pwwkew length is",lengthOfLongestSubstring("pwwkew"))
+    print("dvdf length is",lengthOfLongestSubstring("dvdf"))
+    print("au length is",lengthOfLongestSubstring("au"))
+    print("aab length is",lengthOfLongestSubstring("aab"))
+    print("abba length is",lengthOfLongestSubstring("abba"))
+    
