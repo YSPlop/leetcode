@@ -5,7 +5,7 @@ This repo will be used to reflect my work in leetcode and store the code that I 
 ## Checklist
 
 - Easy
-    - [x] two-sum.py
+    - [x] two-sum.py [1.easy/1.two-sum.ts]
     - [x] add-two-numbers
     - [x] panlindrome-number
 - Medium
